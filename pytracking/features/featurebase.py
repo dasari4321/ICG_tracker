@@ -1,6 +1,7 @@
 import torch
 import torch.nn.functional as F
 from pytracking import TensorList
+#from torchsummary import summary
 
 
 class FeatureBase:
@@ -54,7 +55,6 @@ class FeatureBase:
 
         # Extract feature
         feat = self.extract(im)
-
         # Pool/downsample
         if self.output_size is not None:
             feat = F.adaptive_avg_pool2d(feat, self.output_size)

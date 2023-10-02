@@ -29,9 +29,15 @@ def load_text_pandas(path, delimiter, dtype):
 
         raise Exception('Could not read file {}'.format(path))
     else:
-        ground_truth_rect = pd.read_csv(path, delimiter=delimiter, header=None, dtype=dtype, na_filter=False,
+        ground_truth_rect = pd.read_csv(path, delimiter=delimiter, header=None, na_filter=False,
                                         low_memory=False).values
-        return ground_truth_rect
+        
+        rect = pd.read_csv(path,delimiter='\t').values
+        gt  = []
+        for i in range(0,len(rect)):
+            gt.append(rect[i][0].split(' ')[1:5])
+            gt[i] = [int(val) for val in gt[i]]
+        return np.array(gt)
 
 
 def load_text(path, delimiter=' ', dtype=np.float32, backend='numpy'):

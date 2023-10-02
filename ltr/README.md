@@ -6,8 +6,6 @@ A general PyTorch based framework for learning tracking representations.
 * [Quick Start](#quick-start)
 * [Overview](#overview)
 * [Trackers](#trackers)
-   * [RTS](#RTS)
-   * [ToMP](#ToMP)
    * [KeepTrack](#KeepTrack)
    * [LWL](#LWL)
    * [KYS](#KYS)
@@ -32,7 +30,7 @@ python run_training bbreg atom_default
 
 
 ## Overview
-The framework consists of the following submodules.
+The framework consists of the following sub-modules.  
  - [actors](actors): Contains the actor classes for different trainings. The actor class is responsible for passing the input data through the network can calculating losses.  
  - [admin](admin): Includes functions for loading networks, tensorboard etc. and also contains environment settings.  
  - [dataset](dataset): Contains integration of a number of training datasets, namely [TrackingNet](https://tracking-net.org/), [GOT-10k](http://got-10k.aitestunion.com/), [LaSOT](http://vision.cs.stonybrook.edu/~lasot/), 
@@ -46,23 +44,7 @@ The framework consists of the following submodules.
  
 ## Trackers
  The framework currently contains the training code for the following trackers.
-
-### RTS
- Three steps are required to train RTS:
- - Download [lasot_got10k_pregenerated_masks.zip](https://drive.google.com/file/d/17YcdQOoA4DubK-krClJfxNtw9ooCyWHv/view?usp=sharing).
-
-   Unzip the archive in the `pregenerated_masks` set in `ltr/admin/local.py`.
- - Download the pretrained LWL weights [lwl_stage2.pth](https://drive.google.com/file/d/1Xnm4A2BRBliDBKO4EEFHAQfGyfOMsVyY/view?usp=sharing).
-
-   Save the weights in the `pretrained_networks` set in `ltr/admin/local.py`.
- - Use this setting for training with ResNet50 backbone: [rts.rts50](train_settings/rts/rts50.py)
-
-
-### ToMP
- The following setting files can be used to train the ToMP tracker. We omit training with a separate test encoding since the training is more stable but leads to comparable performance. Set the flag to false to use the same setup as in the paper.
- - [tomp.tomp50](train_settings/tomp/tomp50.py): The default setting use for training with ResNet50 backbone. 
- - [tomp.tomp101](train_settings/tomp/tomp101.py): The default setting use for training with ResNet101 backbone.
-
+ 
 ### KeepTrack
  In order to train KeepTrack the following three steps are required.  
  - Prepare the base tracker: Download the weights [super_dimp_simple.pth.tar](https://drive.google.com/file/d/1lzwdeX9HBefQwznMaX5AKAGda7tqeQtg) or retrain the tracker using the settings [dimp.super_dimp_simple](train_settings/dimp/super_dimp_simple.py).  

@@ -1,5 +1,3 @@
-import os
-import json
 import numpy as np
 from pytracking.evaluation.data import Sequence, BaseDataset, SequenceList
 from pytracking.utils.load_text import load_text
@@ -16,14 +14,10 @@ class OTBDataset(BaseDataset):
 
     Download the dataset from http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html
     """
-    def __init__(self, attribute=None):
+    def __init__(self):
         super().__init__()
         self.base_path = self.env_settings.otb_path
         self.sequence_info_list = self._get_sequence_info_list()
-        self.att_dict = None
-
-        if attribute is not None:
-            self.sequence_info_list = self._filter_sequence_info_list_by_attribute(attribute, self.sequence_info_list)
 
     def get_sequence_list(self):
         return SequenceList([self._construct_sequence(s) for s in self.sequence_info_list])
@@ -49,31 +43,6 @@ class OTBDataset(BaseDataset):
 
         return Sequence(sequence_info['name'], frames, 'otb', ground_truth_rect[init_omit:,:],
                         object_class=sequence_info['object_class'])
-
-    def get_attribute_names(self, mode='short'):
-        if self.att_dict is None:
-            self.att_dict = self._load_attributes()
-
-        names = self.att_dict['att_name_short'] if mode == 'short' else self.att_dict['att_name_long']
-        return names
-
-    def _load_attributes(self):
-        with open(os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                               'dataset_attribute_specs', 'otb_attributes.json'), 'r') as f:
-            att_dict = json.load(f)
-        return att_dict
-
-    def _filter_sequence_info_list_by_attribute(self, att, seq_list):
-        if self.att_dict is None:
-            self.att_dict = self._load_attributes()
-
-        if att not in self.att_dict['att_name_short']:
-            if att in self.att_dict['att_name_long']:
-                att = self.att_dict['att_name_short'][self.att_dict['att_name_long'].index(att)]
-            else:
-                raise ValueError('\'{}\' attribute invalid.')
-
-        return [s for s in seq_list if att in self.att_dict[s['name']]]
 
     def __len__(self):
         return len(self.sequence_info_list)
@@ -188,7 +157,7 @@ class OTBDataset(BaseDataset):
              "object_class": "person"},
             {"name": "Human3", "path": "Human3/img", "startFrame": 1, "endFrame": 1698, "nz": 4, "ext": "jpg", "anno_path": "Human3/groundtruth_rect.txt",
              "object_class": "person"},
-            {"name": "Human4_2", "path": "Human4/img", "startFrame": 1, "endFrame": 667, "nz": 4, "ext": "jpg", "anno_path": "Human4/groundtruth_rect.2.txt",
+            {"name": "Human4", "path": "Human4/img", "startFrame": 1, "endFrame": 667, "nz": 4, "ext": "jpg", "anno_path": "Human4/groundtruth_rect.2.txt",
              "object_class": "person"},
             {"name": "Human5", "path": "Human5/img", "startFrame": 1, "endFrame": 713, "nz": 4, "ext": "jpg", "anno_path": "Human5/groundtruth_rect.txt",
              "object_class": "person"},
@@ -202,15 +171,15 @@ class OTBDataset(BaseDataset):
              "object_class": "person"},
             {"name": "Ironman", "path": "Ironman/img", "startFrame": 1, "endFrame": 166, "nz": 4, "ext": "jpg", "anno_path": "Ironman/groundtruth_rect.txt",
              "object_class": "person head"},
-            {"name": "Jogging_1", "path": "Jogging/img", "startFrame": 1, "endFrame": 307, "nz": 4, "ext": "jpg", "anno_path": "Jogging/groundtruth_rect.1.txt",
+            {"name": "Jogging-1", "path": "Jogging/img", "startFrame": 1, "endFrame": 307, "nz": 4, "ext": "jpg", "anno_path": "Jogging/groundtruth_rect.1.txt",
              "object_class": "person"},
-            {"name": "Jogging_2", "path": "Jogging/img", "startFrame": 1, "endFrame": 307, "nz": 4, "ext": "jpg", "anno_path": "Jogging/groundtruth_rect.2.txt",
+            {"name": "Jogging-2", "path": "Jogging/img", "startFrame": 1, "endFrame": 307, "nz": 4, "ext": "jpg", "anno_path": "Jogging/groundtruth_rect.2.txt",
              "object_class": "person"},
             {"name": "Jump", "path": "Jump/img", "startFrame": 1, "endFrame": 122, "nz": 4, "ext": "jpg", "anno_path": "Jump/groundtruth_rect.txt",
              "object_class": "person"},
             {"name": "Jumping", "path": "Jumping/img", "startFrame": 1, "endFrame": 313, "nz": 4, "ext": "jpg", "anno_path": "Jumping/groundtruth_rect.txt",
              "object_class": "face"},
-            {"name": "KiteSurf", "path": "KiteSurf/jpg", "startFrame": 1, "endFrame": 84, "nz": 4, "ext": "png", "anno_path": "KiteSurf/groundtruth_rect.txt",
+            {"name": "KiteSurf", "path": "KiteSurf/img", "startFrame": 1, "endFrame": 84, "nz": 4, "ext": "jpg", "anno_path": "KiteSurf/groundtruth_rect.txt",
              "object_class": "face"},
             {"name": "Lemming", "path": "Lemming/img", "startFrame": 1, "endFrame": 1336, "nz": 4, "ext": "jpg", "anno_path": "Lemming/groundtruth_rect.txt",
              "object_class": "other"},
@@ -244,10 +213,10 @@ class OTBDataset(BaseDataset):
              "object_class": "person"},
             {"name": "Skating1", "path": "Skating1/img", "startFrame": 1, "endFrame": 400, "nz": 4, "ext": "jpg", "anno_path": "Skating1/groundtruth_rect.txt",
              "object_class": "person"},
-            {"name": "Skating2_1", "path": "Skating2/img", "startFrame": 1, "endFrame": 473, "nz": 4, "ext": "jpg", "anno_path": "Skating2/groundtruth_rect.1.txt",
-             "object_class": "person"},
-            {"name": "Skating2_2", "path": "Skating2/img", "startFrame": 1, "endFrame": 473, "nz": 4, "ext": "jpg", "anno_path": "Skating2/groundtruth_rect.2.txt",
-             "object_class": "person"},
+#            {"name": "Skating2_1", "path": "Skating2/img", "startFrame": 1, "endFrame": 473, "nz": 4, "ext": "jpg", "anno_path": "Skating2/groundtruth_rect.1.txt",
+#             "object_class": "person"},
+#            {"name": "Skating2_2", "path": "Skating2/img", "startFrame": 1, "endFrame": 473, "nz": 4, "ext": "jpg", "anno_path": "Skating2/groundtruth_rect.2.txt",
+#             "object_class": "person"},
             {"name": "Skiing", "path": "Skiing/img", "startFrame": 1, "endFrame": 81, "nz": 4, "ext": "jpg", "anno_path": "Skiing/groundtruth_rect.txt",
              "object_class": "person"},
             {"name": "Soccer", "path": "Soccer/img", "startFrame": 1, "endFrame": 392, "nz": 4, "ext": "jpg", "anno_path": "Soccer/groundtruth_rect.txt",

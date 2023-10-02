@@ -109,14 +109,15 @@ class FactorizedConvProblem(optimization.L2Problem):
             brp = br.reshape(1, -1, 2, br.shape[2], br.shape[3]).permute(0, 1, 3, 4, 2)
             ip_filt_reg += fourier.inner_prod_fs(arp[:,:,:,2*reg_pad2:,:], brp[:,:,:,2*reg_pad2:,:])
 
-        ip_P_reg = sum(a_P_reg.view(-1) @ b_P_reg.view(-1))
+        print(a_P_reg.shape)
+        ip_P_reg = sum(a_P_reg.reshape(-1) @ b_P_reg.reshape(-1))
 
         return ip_data + ip_filt_reg + ip_P_reg
 
-
-    def M1(self, x: TensorList):
-        return x / self.diag_M
-
+##############################################3 M1 was defined
+#    def M1(self, x: TensorList):
+#        return x / self.diag_M
+#################################################
 
 class FilterOptim(optimization.ConjugateGradientBase):
     def __init__(self, params, reg_energy):

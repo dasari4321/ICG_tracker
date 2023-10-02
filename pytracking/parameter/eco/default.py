@@ -14,6 +14,7 @@ def parameters():
     # Feature specific parameters
     shallow_params = TrackerParams()
     deep_params = TrackerParams()
+#    base_params = TrackerParams()
 
     # Patch sampling parameters
     params.max_image_sample_size = 250**2   # Maximum image sample size
@@ -65,7 +66,7 @@ def parameters():
     params.update_projection_matrix = True   # Whether the projection matrix should be optimized or not
     # params.proj_init_method = 'pca'        # Method for initializing the projection matrix
     params.projection_reg = 5e-8	 	 	 # Regularization parameter of the projection matrix
-    shallow_params.compressed_dim = 16       # Dimension output of projection matrix for shallow features
+    shallow_params.compressed_dim = 16        # Dimension output of projection matrix for shallow features
     deep_params.compressed_dim = 64          # Dimension output of projection matrix for deep features
 
     # Interpolation parameters
@@ -87,11 +88,13 @@ def parameters():
     deep_params.reg_window_power = 2            # The degree of the polynomial to use (e.g. 2 is a quadratic window)
     deep_params.reg_sparsity_threshold = 0.1    # A relative threshold of which DFT coefficients that should be set to zero
 
-
-    fparams = FeatureParams(feature_params=[shallow_params, deep_params])
+#    base_params = shallow_params
+    fparams = FeatureParams(feature_params=[shallow_params, deep_params]) #base_params,
     features = deep.ResNet18m1(output_layers=['vggconv1', 'layer3'], use_gpu=params.use_gpu, fparams=fparams,
-                               pool_stride=[2, 1], normalize_power=2)
-
+                                pool_stride=[2, 1], normalize_power=2)
+#    features = deep.ResNet18m1(output_layers=['ft','vggconv1', 'layer3'], use_gpu=params.use_gpu, fparams=fparams,
+#                                pool_stride=[4, 2, 1], normalize_power=2)
+#    features = deep.cvt(output_layers=['layer1', 'layer3'],use_gpu=params.use_gpu, fparams=fparams,
+#                                pool_stride=[1, 1], normalize_power=2)
     params.features = MultiResolutionExtractor([features])
-
     return params

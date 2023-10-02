@@ -1,7 +1,9 @@
 import torch
 import torch.nn.functional as F
 import numpy as np
-
+import matplotlib.pyplot as plt
+import matplotlib.patches as ptch
+import math
 
 def numpy_to_torch(a: np.ndarray):
     return torch.from_numpy(a).float().permute(2, 0, 1).unsqueeze(0)
@@ -94,20 +96,34 @@ def sample_patch(im: torch.Tensor, pos: torch.Tensor, sample_sz: torch.Tensor, o
 
     sz = sample_sz.float() / df     # new size
 
+
     # Do downsampling
     if df > 1:
         os = posl % df              # offset
-        posl = (posl - os) / df     # new position
+        posl = (posl - os) // df     # new position
         im2 = im[..., os[0].item()::df, os[1].item()::df]   # downsample
     else:
         im2 = im
+
+    # plt.figure()
+    # plt.imshow(im2.squeeze().permute(1,2,0)/255)
+    # rect = ptch.Rectangle((posn[1]-22, posn[0]-34),45,68,fill=False,color="black")
+    # plt.gca().add_patch(rect)
 
     # compute size to crop
     szl = torch.max(sz.round(), torch.Tensor([2])).long()
 
     # Extract top and bottom coordinates
-    tl = posl - (szl - 1) / 2
-    br = posl + szl/2 + 1
+    tl = posl - (szl - 1) // 2
+    br = posl + szl//2 + 1
+
+    # plt.figure()
+    # plt.imshow(im2.squeeze().permute(1,2,0)/255)
+    # rect = ptch.Rectangle((posn[1]-22, posn[0]-34),45,68,fill=False,color="black")
+    # plt.gca().add_patch(rect)
+    
+    # rect = ptch.Rectangle((tl[1], tl[0]),szl[1],szl[0],fill=False,color="black")
+    # plt.gca().add_patch(rect)
 
     # Shift the crop to inside
     if mode == 'inside' or mode == 'inside_major':
@@ -125,13 +141,13 @@ def sample_patch(im: torch.Tensor, pos: torch.Tensor, sample_sz: torch.Tensor, o
         # im_patch = im2[...,tl[0].item():br[0].item(),tl[1].item():br[1].item()]
 
     # Get image patch
-    pad = (-tl[1].int().item(), br[1].int().item() - im2.shape[3],
-           -tl[0].int().item(), br[0].int().item() - im2.shape[2])
-
     if not is_mask:
-        im_patch = F.pad(im2, pad, pad_mode)
+        im_patch = F.pad(im2, (-tl[1].item(), br[1].item() - im2.shape[3], -tl[0].item(), br[0].item() - im2.shape[2]), pad_mode)
     else:
-        im_patch = F.pad(im2, pad)
+        im_patch = F.pad(im2, (-tl[1].item(), br[1].item() - im2.shape[3], -tl[0].item(), br[0].item() - im2.shape[2]))
+    # plt.figure()
+
+    # plt.imshow(im_patch.squeeze().permute(1,2,0)/255)
 
     # Get image coordinates
     patch_coord = df * torch.cat((tl, br)).view(1,4)
@@ -146,3 +162,46 @@ def sample_patch(im: torch.Tensor, pos: torch.Tensor, sample_sz: torch.Tensor, o
         im_patch = F.interpolate(im_patch, output_sz.long().tolist(), mode='nearest')
 
     return im_patch, patch_coord
+
+# if __name__=="__main__":
+#     im = torch.Tensor(np.random.randint(0,255,size=(1,3,720,1080)))
+#     im[0,0,:300,:400] = 1
+#     im[0,1,300:600,400:800] = 1
+#     bb = torch.Tensor([250,200,100,150])
+#     pos = bb[:2]+bb[2:]//2
+
+#     # plt.imshow(im.squeeze().permute(1,2,0)/255)
+#     # rect = ptch.Rectangle((30,50),200,500,fill=False,color="black")
+#     # plt.gca().add_patch(rect)
+#     # plt.figure()
+#     # plt.imshow(img1[0].squeeze().permute(1,2,0)/255)
+#     # plt.figure()
+#     # plt.imshow(img2[0]/255)
+   
+#     pos = torch.Tensor([bb[1] + (bb[3] - 1)/2, bb[0] + (bb[2] - 1)/2])
+#     target_sz = torch.Tensor([bb[3], bb[2]])
+
+#     # Set search area
+#     target_scale = 1.0
+#     search_area = torch.prod( target_sz *  4.5).item()
+#     if search_area >  250*250:
+#          target_scale =  math.sqrt(search_area / 62500)
+#     elif search_area <  200*200:
+#          target_scale =  math.sqrt(search_area / 40000)
+
+#     # Target size in base scale
+#     base_target_sz =  target_sz /  target_scale
+
+#     # Use odd square search area and set sizes
+#     feat_max_stride = 16
+#     img_sample_sz = torch.round(torch.sqrt(torch.prod( base_target_sz *  4.5))) * torch.ones(2)
+#     img_sample_sz += feat_max_stride -  img_sample_sz % (2 * feat_max_stride)
+#     sample_sz = target_scale * img_sample_sz
+
+#     sz = target_sz
+#     plt.figure()
+#     plt.imshow(im.squeeze().permute(1,2,0)/255)
+#     rect = ptch.Rectangle((bb[0], bb[1]),sz[1],sz[0],fill=False,color="black")
+#     plt.gca().add_patch(rect)
+    
+#     img1 = sample_patch(im,pos,sample_sz,img_sample_sz)

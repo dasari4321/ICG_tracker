@@ -9,11 +9,9 @@ class ExtractorBase:
     """
     def __init__(self, features):
         self.features = features
-
     def initialize(self):
         for f in self.features:
             f.initialize()
-
 
 class SingleResolutionExtractor(ExtractorBase):
     """Single resolution feature extractor.
@@ -116,6 +114,13 @@ class MultiResolutionExtractor(ExtractorBase):
         # Compute features
         feature_map = TensorList([f.get_feature(im_patches) for f in self.features]).unroll()
 
+        # cvt = self.model
+
+        # ft1 = cvt.feat_layers[0](im_patches)
+        # ft2 = cvt.feat_layers[1](ft1)
+        # ft3 = cvt.feat_layers[2](ft2)
+        # feature_map = TensorList([ft1, ft3]).unroll()
+
         if return_patches:
             return feature_map, patch_coords, im_patches
         else:
@@ -139,5 +144,10 @@ class MultiResolutionExtractor(ExtractorBase):
 
         # Compute features
         feature_map = TensorList([f.get_feature(im_patches) for f in self.features]).unroll()
+        # cvt = self.model
 
-        return feature_map 
+        # ft1 = cvt.feat_layers[0](im_patches)
+        # ft2 = cvt.feat_layers[1](ft1)
+        # ft3 = cvt.feat_layers[2](ft2)
+        # feature_map = TensorList([ft1, ft3]).unroll()
+        return feature_map

@@ -7,7 +7,6 @@ class BaseTracker:
         self.params = params
         self.visdom = None
 
-
     def predicts_segmentation_mask(self):
         return False
 
@@ -23,12 +22,8 @@ class BaseTracker:
 
 
     def visdom_draw_tracking(self, image, box, segmentation=None):
-        if box is None:
-            box = []
-        elif isinstance(box, OrderedDict):
+        if isinstance(box, OrderedDict):
             box = [v for k, v in box.items()]
-        elif isinstance(box, list):
-            box = box
         else:
             box = (box,)
         if segmentation is None:

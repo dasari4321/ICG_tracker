@@ -163,7 +163,7 @@ def mtimes(a: torch.Tensor, b: torch.Tensor, conj_a=False, conj_b=False):
         if b.dim() >= a.dim():
             raise ValueError('Incorrect dimensions.')
         return mtimes_complex_real(a, b, conj_a=conj_a)
-
+#    print(a.shape, b.shape)
     if not conj_a and not conj_b:
         return complex(torch.matmul(a[..., 0], b[..., 0]) - torch.matmul(a[..., 1], b[..., 1]),
                        torch.matmul(a[..., 0], b[..., 1]) + torch.matmul(a[..., 1], b[..., 0]))

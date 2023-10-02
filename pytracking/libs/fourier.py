@@ -37,7 +37,7 @@ def sample_fs(a: torch.Tensor, grid_sz: torch.Tensor = None, rescale = True):
 
     # Size of the fourier series
     sz = torch.Tensor([a.shape[2], 2*a.shape[3]-1]).float()
-
+#    print(sz, grid_sz)
     # Default grid
     if grid_sz is None or sz[0] == grid_sz[0] and sz[1] == grid_sz[1]:
         if rescale:

@@ -9,9 +9,12 @@ from pytracking.utils.plotting import show_tensor
 from pytracking.libs.optimization import GaussNewtonCG
 from .optim import FilterOptim, FactorizedConvProblem
 from pytracking.features import augmentation
+#from pytorch_grad_cam import GradCAM
+#from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
+#from pytorch_grad_cam.utils.image import show_cam_on_image
 
-
-
+#from pytracking.libs.py_fft import fft_feats
+import matplotlib.pyplot as plt
 class ECO(BaseTracker):
 
     multiobj_mode = 'parallel'
@@ -29,7 +32,6 @@ class ECO(BaseTracker):
         self.frame_num = 1
         if not self.params.has('device'):
             self.params.device = 'cuda' if self.params.use_gpu else 'cpu'
-
         # Initialize features
         self.initialize_features()
 
@@ -62,14 +64,18 @@ class ECO(BaseTracker):
         # Set other sizes (corresponds to ECO code)
         self.img_support_sz = self.img_sample_sz
         self.feature_sz = self.params.features.size(self.img_sample_sz)
+############################################
         self.filter_sz = self.feature_sz + (self.feature_sz + 1) % 2
-        self.output_sz = self.params.score_upsample_factor * self.img_support_sz    # Interpolated size of the output
+#        self.filter_sz = self.feature_sz
+############################################
+        self.output_sz = self.params.score_upsample_factor * self.img_support_sz   # Interpolated size of the output
         self.compressed_dim = self.fparams.attribute('compressed_dim')
 
         # Number of filters
         self.num_filters = len(self.filter_sz)
 
         # Get window function
+
         self.window = TensorList([dcf.hann2d(sz).to(self.params.device) for sz in self.feature_sz])
 
         # Get interpolation function
@@ -102,16 +108,17 @@ class ECO(BaseTracker):
         self.image_sz = torch.Tensor([im.shape[2], im.shape[3]])
         self.min_scale_factor = torch.max(10 / self.base_target_sz)
         self.max_scale_factor = torch.min(self.image_sz / self.base_target_sz)
-
-        # Extract and transform sample
+#################################################################
+        # Extract and transform sample into feature
         x = self.generate_init_samples(im)
+        #print(x.shape)
 
         # Initialize projection matrix
         x_mat = TensorList([e.permute(1,0,2,3).reshape(e.shape[1], -1).clone() for e in x])
         x_mat -= x_mat.mean(dim=1, keepdim=True)
         cov_x = x_mat @ x_mat.t()
         self.projection_matrix = TensorList([torch.svd(C)[0][:,:cdim].clone() for C, cdim in zip(cov_x, self.compressed_dim)])
-
+#####################################################################
         # Transform to get the training sample
         train_xf = self.preprocess_sample(x)
 
@@ -153,10 +160,10 @@ class ECO(BaseTracker):
         self.joint_problem = FactorizedConvProblem(self.init_training_samples, self.yf, self.reg_filter, self.projection_matrix, self.params, self.init_sample_weights)
         joint_var = self.filter.concat(self.projection_matrix)
         self.joint_optimizer = GaussNewtonCG(self.joint_problem, joint_var, debug=(self.params.debug>=1), visdom=self.visdom)
-
+####################################################
         if self.params.update_projection_matrix:
             self.joint_optimizer.run(self.params.init_CG_iter // self.params.init_GN_iter, self.params.init_GN_iter)
-
+####################################################
         # Re-project samples with the new projection matrix
         compressed_samples = complex.mtimes(self.init_training_samples, self.projection_matrix)
         for train_samp, init_samp in zip(self.training_samples, compressed_samples):
@@ -167,15 +174,14 @@ class ECO(BaseTracker):
         self.filter_optimizer.register(self.filter, self.training_samples, self.yf, self.sample_weights, self.reg_filter)
         self.filter_optimizer.sample_energy = self.joint_problem.sample_energy
         self.filter_optimizer.residuals = self.joint_optimizer.residuals.clone()
-
+###########################################################
         if not self.params.update_projection_matrix:
             self.filter_optimizer.run(self.params.init_CG_iter)
 
         # Post optimization
         self.filter_optimizer.run(self.params.post_init_CG_iter)
-
+############################################################
         self.symmetrize_filter()
-
 
 
     def track(self, image, info: dict = None) -> dict:
@@ -196,6 +202,7 @@ class ECO(BaseTracker):
 
         # Compute scores
         sf = self.apply_filter(test_xf)
+        
         translation_vec, scale_ind, s = self.localize_target(sf)
         scale_change_factor = self.params.scale_factors[scale_ind]
 
@@ -242,6 +249,9 @@ class ECO(BaseTracker):
 
 
     def apply_filter(self, sample_xf: TensorList) -> torch.Tensor:
+#        plt.figure()
+#       plt.imshow(sample_xf[0][0,7,:,:,0].detach().cpu().numpy()) 
+#        plt.show()
         return complex.mult(self.filter, sample_xf).sum(1, keepdim=True)
 
     def localize_target(self, sf: TensorList):
@@ -295,10 +305,14 @@ class ECO(BaseTracker):
         return self.preprocess_sample(self.project_sample(x))
 
     def preprocess_sample(self, x: TensorList) -> TensorList:
+#        print(x[0].shape, x[1].shape)
+#        print(self.window[0].shape, self.window[1].shape) 
         x *= self.window
+        ############################################################################### 
         sample_xf = fourier.cfft2(x)
+        ###############################################################################
         return TensorList([dcf.interpolate_dft(xf, bf) for xf, bf in zip(sample_xf, self.interp_fs)])
-
+    
     def project_sample(self, x: TensorList):
         @tensor_operation
         def _project_sample(x: torch.Tensor, P: torch.Tensor):
@@ -383,3 +397,7 @@ class ECO(BaseTracker):
         for hf in self.filter:
             hf[:,:,:,0,:] /= 2
             hf[:,:,:,0,:] += complex.conj(hf[:,:,:,0,:].flip((2,)))
+#        [print(self.filter[i].shape) for i in range(0,len(self.filter))]
+#        plt.figure()
+#        plt.imshow(self.filter[0][0,5,:,:,0].detach().cpu().numpy()) 
+#        plt.show()

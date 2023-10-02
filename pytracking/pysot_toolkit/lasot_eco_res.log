@@ -1,0 +1,294 @@
+..
+loading LaSOT:   0%|                                                        | 0/280 [00:00<?, ?it/s]loading LaSOT:   0%|                                            | 0/280 [00:00<?, ?it/s, airplane-1]loading LaSOT:   0%|                                            | 0/280 [00:00<?, ?it/s, airplane-9]loading LaSOT:   0%|                                           | 0/280 [00:00<?, ?it/s, airplane-13]loading LaSOT:   0%|                                           | 0/280 [00:00<?, ?it/s, airplane-15]loading LaSOT:   0%|                                          | 0/280 [00:00<?, ?it/s, basketball-1]loading LaSOT:   0%|                                          | 0/280 [00:00<?, ?it/s, basketball-6]loading LaSOT:   0%|                                          | 0/280 [00:00<?, ?it/s, basketball-7]loading LaSOT:   0%|                                         | 0/280 [00:00<?, ?it/s, basketball-11]loading LaSOT:   0%|                                                | 0/280 [00:00<?, ?it/s, bear-2]loading LaSOT:   3%|█▎                                      | 9/280 [00:00<00:03, 88.47it/s, bear-2]loading LaSOT:   3%|█▎                                      | 9/280 [00:00<00:03, 88.47it/s, bear-4]loading LaSOT:   3%|█▎                                      | 9/280 [00:00<00:03, 88.47it/s, bear-6]loading LaSOT:   3%|█▎                                     | 9/280 [00:00<00:03, 88.47it/s, bear-17]loading LaSOT:   3%|█▏                                   | 9/280 [00:00<00:03, 88.47it/s, bicycle-2]loading LaSOT:   3%|█▏                                   | 9/280 [00:00<00:03, 88.47it/s, bicycle-7]loading LaSOT:   3%|█▏                                   | 9/280 [00:00<00:03, 88.47it/s, bicycle-9]loading LaSOT:   3%|█▏                                  | 9/280 [00:00<00:03, 88.47it/s, bicycle-18]loading LaSOT:   3%|█▎                                      | 9/280 [00:00<00:03, 88.47it/s, bird-2]loading LaSOT:   3%|█▎                                      | 9/280 [00:00<00:03, 88.47it/s, bird-3]loading LaSOT:   3%|█▎                                     | 9/280 [00:00<00:03, 88.47it/s, bird-15]loading LaSOT:   3%|█▎                                     | 9/280 [00:00<00:03, 88.47it/s, bird-17]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, bird-17]loading LaSOT:   7%|██▊                                    | 20/280 [00:00<00:02, 93.54it/s, boat-3]loading LaSOT:   7%|██▊                                    | 20/280 [00:00<00:02, 93.54it/s, boat-4]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, boat-12]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, boat-17]loading LaSOT:   7%|██▊                                    | 20/280 [00:00<00:02, 93.54it/s, book-3]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, book-10]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, book-11]loading LaSOT:   7%|██▋                                   | 20/280 [00:00<00:02, 93.54it/s, book-19]loading LaSOT:   7%|██▋                                  | 20/280 [00:00<00:02, 93.54it/s, bottle-1]loading LaSOT:   7%|██▌                                 | 20/280 [00:00<00:02, 93.54it/s, bottle-12]loading LaSOT:  11%|███▊                                | 30/280 [00:00<00:02, 85.69it/s, bottle-12]loading LaSOT:  11%|███▊                                | 30/280 [00:00<00:02, 85.69it/s, bottle-14]loading LaSOT:  11%|███▊                                | 30/280 [00:00<00:02, 85.69it/s, bottle-18]loading LaSOT:  11%|████▎                                   | 30/280 [00:00<00:02, 85.69it/s, bus-2]loading LaSOT:  11%|████▎                                   | 30/280 [00:00<00:02, 85.69it/s, bus-5]loading LaSOT:  11%|████▏                                  | 30/280 [00:00<00:02, 85.69it/s, bus-17]loading LaSOT:  11%|████▏                                  | 30/280 [00:00<00:02, 85.69it/s, bus-19]loading LaSOT:  11%|████▎                                   | 30/280 [00:00<00:02, 85.69it/s, car-2]loading LaSOT:  11%|████▎                                   | 30/280 [00:00<00:02, 85.69it/s, car-6]loading LaSOT:  11%|████▎                                   | 30/280 [00:00<00:02, 85.69it/s, car-9]loading LaSOT:  14%|█████▌                                  | 39/280 [00:00<00:02, 84.27it/s, car-9]loading LaSOT:  14%|█████▍                                 | 39/280 [00:00<00:02, 84.27it/s, car-17]loading LaSOT:  14%|█████▌                                  | 39/280 [00:00<00:02, 84.27it/s, cat-1]loading LaSOT:  14%|█████▌                                  | 39/280 [00:00<00:02, 84.27it/s, cat-3]loading LaSOT:  14%|█████▍                                 | 39/280 [00:00<00:02, 84.27it/s, cat-18]loading LaSOT:  14%|█████▍                                 | 39/280 [00:00<00:02, 84.27it/s, cat-20]loading LaSOT:  14%|█████▏                               | 39/280 [00:00<00:02, 84.27it/s, cattle-2]loading LaSOT:  14%|█████▏                               | 39/280 [00:00<00:02, 84.27it/s, cattle-7]loading LaSOT:  14%|█████                               | 39/280 [00:00<00:02, 84.27it/s, cattle-12]loading LaSOT:  14%|█████                               | 39/280 [00:00<00:02, 84.27it/s, cattle-13]loading LaSOT:  17%|██████▏                             | 48/280 [00:00<00:02, 85.09it/s, cattle-13]loading LaSOT:  17%|██████▏                             | 48/280 [00:00<00:02, 85.09it/s, spider-14]loading LaSOT:  17%|██████▏                             | 48/280 [00:00<00:02, 85.09it/s, spider-16]loading LaSOT:  17%|██████▏                             | 48/280 [00:00<00:02, 85.09it/s, spider-18]loading LaSOT:  17%|██████▏                             | 48/280 [00:00<00:02, 85.09it/s, spider-20]loading LaSOT:  17%|██████▋                                | 48/280 [00:00<00:02, 85.09it/s, coin-3]loading LaSOT:  17%|██████▋                                | 48/280 [00:00<00:02, 85.09it/s, coin-6]loading LaSOT:  17%|██████▋                                | 48/280 [00:00<00:02, 85.09it/s, coin-7]loading LaSOT:  17%|██████▌                               | 48/280 [00:00<00:02, 85.09it/s, coin-18]loading LaSOT:  17%|██████▋                                | 48/280 [00:00<00:02, 85.09it/s, crab-3]loading LaSOT:  20%|███████▉                               | 57/280 [00:00<00:02, 83.72it/s, crab-3]loading LaSOT:  20%|███████▉                               | 57/280 [00:00<00:02, 83.72it/s, crab-6]loading LaSOT:  20%|███████▋                              | 57/280 [00:00<00:02, 83.72it/s, crab-12]loading LaSOT:  20%|███████▋                              | 57/280 [00:00<00:02, 83.72it/s, crab-18]loading LaSOT:  20%|██████▋                          | 57/280 [00:00<00:02, 83.72it/s, surfboard-12]loading LaSOT:  20%|██████▉                           | 57/280 [00:00<00:02, 83.72it/s, surfboard-4]loading LaSOT:  20%|██████▉                           | 57/280 [00:00<00:02, 83.72it/s, surfboard-5]loading LaSOT:  20%|██████▉                           | 57/280 [00:00<00:02, 83.72it/s, surfboard-8]loading LaSOT:  20%|████████▏                               | 57/280 [00:00<00:02, 83.72it/s, cup-1]loading LaSOT:  20%|████████▏                               | 57/280 [00:00<00:02, 83.72it/s, cup-4]loading LaSOT:  24%|█████████▍                              | 66/280 [00:00<00:02, 82.02it/s, cup-4]loading LaSOT:  24%|█████████▍                              | 66/280 [00:00<00:02, 82.02it/s, cup-7]loading LaSOT:  24%|█████████▏                             | 66/280 [00:00<00:02, 82.02it/s, cup-17]loading LaSOT:  24%|█████████▏                             | 66/280 [00:00<00:02, 82.02it/s, deer-4]loading LaSOT:  24%|█████████▏                             | 66/280 [00:00<00:02, 82.02it/s, deer-8]loading LaSOT:  24%|████████▉                             | 66/280 [00:00<00:02, 82.02it/s, deer-10]loading LaSOT:  24%|████████▉                             | 66/280 [00:00<00:02, 82.02it/s, deer-14]loading LaSOT:  24%|█████████▍                              | 66/280 [00:00<00:02, 82.02it/s, dog-1]loading LaSOT:  24%|█████████▍                              | 66/280 [00:00<00:02, 82.02it/s, dog-7]loading LaSOT:  24%|█████████▏                             | 66/280 [00:00<00:02, 82.02it/s, dog-15]loading LaSOT:  24%|█████████▏                             | 66/280 [00:00<00:02, 82.02it/s, dog-19]loading LaSOT:  27%|██████████▌                            | 76/280 [00:00<00:02, 85.23it/s, dog-19]loading LaSOT:  27%|██████████                           | 76/280 [00:00<00:02, 85.23it/s, guitar-3]loading LaSOT:  27%|██████████                           | 76/280 [00:00<00:02, 85.23it/s, guitar-8]loading LaSOT:  27%|█████████▊                          | 76/280 [00:00<00:02, 85.23it/s, guitar-10]loading LaSOT:  27%|█████████▊                          | 76/280 [00:00<00:02, 85.23it/s, guitar-16]loading LaSOT:  27%|██████████                           | 76/280 [00:00<00:02, 85.23it/s, person-1]loading LaSOT:  27%|██████████                           | 76/280 [00:00<00:02, 85.23it/s, person-5]loading LaSOT:  27%|█████████▊                          | 76/280 [00:00<00:02, 85.23it/s, person-10]loading LaSOT:  27%|█████████▊                          | 76/280 [00:00<00:02, 85.23it/s, person-12]loading LaSOT:  27%|██████████▊                             | 76/280 [00:00<00:02, 85.23it/s, pig-2]loading LaSOT:  30%|████████████▏                           | 85/280 [00:00<00:02, 85.92it/s, pig-2]loading LaSOT:  30%|███████████▊                           | 85/280 [00:00<00:02, 85.92it/s, pig-10]loading LaSOT:  30%|███████████▊                           | 85/280 [00:01<00:02, 85.92it/s, pig-13]loading LaSOT:  30%|███████████▊                           | 85/280 [00:01<00:02, 85.92it/s, pig-18]loading LaSOT:  30%|██████████▎                       | 85/280 [00:01<00:02, 85.92it/s, rubicCube-1]loading LaSOT:  30%|██████████▎                       | 85/280 [00:01<00:02, 85.92it/s, rubicCube-6]loading LaSOT:  30%|██████████                       | 85/280 [00:01<00:02, 85.92it/s, rubicCube-14]loading LaSOT:  30%|██████████                       | 85/280 [00:01<00:02, 85.92it/s, rubicCube-19]loading LaSOT:  30%|███████████▏                         | 85/280 [00:01<00:02, 85.92it/s, swing-10]loading LaSOT:  30%|███████████▏                         | 85/280 [00:01<00:02, 85.92it/s, swing-14]loading LaSOT:  34%|████████████▍                        | 94/280 [00:01<00:02, 84.38it/s, swing-14]loading LaSOT:  34%|████████████▍                        | 94/280 [00:01<00:02, 84.38it/s, swing-17]loading LaSOT:  34%|████████████▍                        | 94/280 [00:01<00:02, 84.38it/s, swing-20]loading LaSOT:  34%|████████████▍                        | 94/280 [00:01<00:02, 84.38it/s, drone-13]loading LaSOT:  34%|████████████▍                        | 94/280 [00:01<00:02, 84.38it/s, drone-15]loading LaSOT:  34%|████████████▊                         | 94/280 [00:01<00:02, 84.38it/s, drone-2]loading LaSOT:  34%|████████████▊                         | 94/280 [00:01<00:02, 84.38it/s, drone-7]loading LaSOT:  34%|████████████▊                         | 94/280 [00:01<00:02, 84.38it/s, pool-12]loading LaSOT:  34%|████████████▊                         | 94/280 [00:01<00:02, 84.38it/s, pool-15]loading LaSOT:  34%|█████████████                          | 94/280 [00:01<00:02, 84.38it/s, pool-3]loading LaSOT:  37%|█████████████▉                        | 103/280 [00:01<00:02, 79.65it/s, pool-3]loading LaSOT:  37%|█████████████▉                        | 103/280 [00:01<00:02, 79.65it/s, pool-7]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, rabbit-10]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, rabbit-13]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, rabbit-17]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, rabbit-19]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, racing-10]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, racing-15]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, racing-16]loading LaSOT:  37%|████████████▉                      | 103/280 [00:01<00:02, 79.65it/s, racing-20]loading LaSOT:  40%|██████████████                     | 112/280 [00:01<00:02, 80.50it/s, racing-20]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, robot-1]loading LaSOT:  40%|██████████████▍                     | 112/280 [00:01<00:02, 80.50it/s, robot-19]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, robot-5]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, robot-8]loading LaSOT:  40%|██████████████▍                     | 112/280 [00:01<00:02, 80.50it/s, sepia-13]loading LaSOT:  40%|██████████████▍                     | 112/280 [00:01<00:02, 80.50it/s, sepia-16]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, sepia-6]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, sepia-8]loading LaSOT:  40%|██████████████▊                      | 112/280 [00:01<00:02, 80.50it/s, sheep-3]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, sheep-3]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, sheep-5]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, sheep-7]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, sheep-9]loading LaSOT:  43%|█████████████▍                 | 121/280 [00:01<00:01, 82.01it/s, skateboard-16]loading LaSOT:  43%|█████████████▍                 | 121/280 [00:01<00:01, 82.01it/s, skateboard-19]loading LaSOT:  43%|█████████████▊                  | 121/280 [00:01<00:01, 82.01it/s, skateboard-3]loading LaSOT:  43%|█████████████▊                  | 121/280 [00:01<00:01, 82.01it/s, skateboard-8]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, tank-14]loading LaSOT:  43%|███████████████▉                     | 121/280 [00:01<00:01, 82.01it/s, tank-16]loading LaSOT:  46%|█████████████████▏                   | 130/280 [00:01<00:01, 77.30it/s, tank-16]loading LaSOT:  46%|█████████████████▋                    | 130/280 [00:01<00:01, 77.30it/s, tank-6]loading LaSOT:  46%|█████████████████▋                    | 130/280 [00:01<00:01, 77.30it/s, tank-9]loading LaSOT:  46%|████████████████▋                   | 130/280 [00:01<00:01, 77.30it/s, tiger-12]loading LaSOT:  46%|████████████████▋                   | 130/280 [00:01<00:01, 77.30it/s, tiger-18]loading LaSOT:  46%|█████████████████▏                   | 130/280 [00:01<00:01, 77.30it/s, tiger-4]loading LaSOT:  46%|█████████████████▏                   | 130/280 [00:01<00:01, 77.30it/s, tiger-6]loading LaSOT:  46%|█████████████████▏                   | 130/280 [00:01<00:01, 77.30it/s, train-1]loading LaSOT:  46%|████████████████▋                   | 130/280 [00:01<00:01, 77.30it/s, train-11]loading LaSOT:  49%|█████████████████▋                  | 138/280 [00:01<00:01, 75.43it/s, train-11]loading LaSOT:  49%|█████████████████▋                  | 138/280 [00:01<00:01, 75.43it/s, train-20]loading LaSOT:  49%|██████████████████▏                  | 138/280 [00:01<00:01, 75.43it/s, train-7]loading LaSOT:  49%|█████████████████▋                  | 138/280 [00:01<00:01, 75.43it/s, truck-16]loading LaSOT:  49%|██████████████████▏                  | 138/280 [00:01<00:01, 75.43it/s, truck-3]loading LaSOT:  49%|██████████████████▏                  | 138/280 [00:01<00:01, 75.43it/s, truck-6]loading LaSOT:  49%|██████████████████▏                  | 138/280 [00:01<00:01, 75.43it/s, truck-7]loading LaSOT:  49%|█████████████████▎                 | 138/280 [00:01<00:01, 75.43it/s, turtle-16]loading LaSOT:  49%|█████████████████▋                  | 138/280 [00:01<00:01, 75.43it/s, turtle-5]loading LaSOT:  52%|██████████████████▊                 | 146/280 [00:01<00:01, 72.37it/s, turtle-5]loading LaSOT:  52%|██████████████████▊                 | 146/280 [00:01<00:01, 72.37it/s, turtle-8]loading LaSOT:  52%|██████████████████▊                 | 146/280 [00:01<00:01, 72.37it/s, turtle-9]loading LaSOT:  52%|█████████████████▏               | 146/280 [00:01<00:01, 72.37it/s, umbrella-17]loading LaSOT:  52%|█████████████████▏               | 146/280 [00:01<00:01, 72.37it/s, umbrella-19]loading LaSOT:  52%|█████████████████▋                | 146/280 [00:01<00:01, 72.37it/s, umbrella-2]loading LaSOT:  52%|█████████████████▋                | 146/280 [00:01<00:01, 72.37it/s, umbrella-9]loading LaSOT:  52%|███████████████████▎                 | 146/280 [00:01<00:01, 72.37it/s, yoyo-15]loading LaSOT:  52%|███████████████████▎                 | 146/280 [00:01<00:01, 72.37it/s, yoyo-17]loading LaSOT:  55%|████████████████████▎                | 154/280 [00:01<00:01, 72.36it/s, yoyo-17]loading LaSOT:  55%|████████████████████▎                | 154/280 [00:01<00:01, 72.36it/s, yoyo-19]loading LaSOT:  55%|████████████████████▉                 | 154/280 [00:01<00:01, 72.36it/s, yoyo-7]loading LaSOT:  55%|███████████████████▊                | 154/280 [00:01<00:01, 72.36it/s, zebra-10]loading LaSOT:  55%|███████████████████▊                | 154/280 [00:01<00:01, 72.36it/s, zebra-14]loading LaSOT:  55%|███████████████████▊                | 154/280 [00:01<00:01, 72.36it/s, zebra-16]loading LaSOT:  55%|███████████████████▊                | 154/280 [00:01<00:01, 72.36it/s, zebra-17]loading LaSOT:  55%|██████████████████▋               | 154/280 [00:02<00:01, 72.36it/s, elephant-1]loading LaSOT:  55%|██████████████████▏              | 154/280 [00:02<00:01, 72.36it/s, elephant-12]loading LaSOT:  58%|███████████████████              | 162/280 [00:02<00:01, 71.90it/s, elephant-12]loading LaSOT:  58%|███████████████████              | 162/280 [00:02<00:01, 71.90it/s, elephant-16]loading LaSOT:  58%|███████████████████              | 162/280 [00:02<00:01, 71.90it/s, elephant-18]loading LaSOT:  58%|███████████████████▋              | 162/280 [00:02<00:01, 71.90it/s, goldfish-3]loading LaSOT:  58%|███████████████████▋              | 162/280 [00:02<00:01, 71.90it/s, goldfish-7]loading LaSOT:  58%|███████████████████▋              | 162/280 [00:02<00:01, 71.90it/s, goldfish-8]loading LaSOT:  58%|███████████████████              | 162/280 [00:02<00:01, 71.90it/s, goldfish-10]loading LaSOT:  58%|██████████████████████▌                | 162/280 [00:02<00:01, 71.90it/s, hat-1]loading LaSOT:  58%|██████████████████████▌                | 162/280 [00:02<00:01, 71.90it/s, hat-2]loading LaSOT:  61%|███████████████████████▋               | 170/280 [00:02<00:01, 73.16it/s, hat-2]loading LaSOT:  61%|███████████████████████▋               | 170/280 [00:02<00:01, 73.16it/s, hat-5]loading LaSOT:  61%|███████████████████████               | 170/280 [00:02<00:01, 73.16it/s, hat-18]loading LaSOT:  61%|███████████████████████               | 170/280 [00:02<00:01, 73.16it/s, kite-4]loading LaSOT:  61%|███████████████████████               | 170/280 [00:02<00:01, 73.16it/s, kite-6]loading LaSOT:  61%|██████████████████████▍              | 170/280 [00:02<00:01, 73.16it/s, kite-10]loading LaSOT:  61%|██████████████████████▍              | 170/280 [00:02<00:01, 73.16it/s, kite-15]loading LaSOT:  61%|███████████████████▍            | 170/280 [00:02<00:01, 73.16it/s, motorcycle-1]loading LaSOT:  61%|███████████████████▍            | 170/280 [00:02<00:01, 73.16it/s, motorcycle-3]loading LaSOT:  61%|███████████████████▍            | 170/280 [00:02<00:01, 73.16it/s, motorcycle-9]loading LaSOT:  64%|████████████████████▍           | 179/280 [00:02<00:01, 77.80it/s, motorcycle-9]loading LaSOT:  64%|███████████████████▊           | 179/280 [00:02<00:01, 77.80it/s, motorcycle-18]loading LaSOT:  64%|███████████████████████▋             | 179/280 [00:02<00:01, 77.80it/s, mouse-1]loading LaSOT:  64%|███████████████████████▋             | 179/280 [00:02<00:01, 77.80it/s, mouse-8]loading LaSOT:  64%|███████████████████████▋             | 179/280 [00:02<00:01, 77.80it/s, mouse-9]loading LaSOT:  64%|███████████████████████             | 179/280 [00:02<00:01, 77.80it/s, mouse-17]loading LaSOT:  64%|████████████████████████▎             | 179/280 [00:02<00:01, 77.80it/s, flag-3]loading LaSOT:  64%|████████████████████████▎             | 179/280 [00:02<00:01, 77.80it/s, flag-9]loading LaSOT:  64%|████████████████████████▎             | 179/280 [00:02<00:01, 77.80it/s, flag-5]loading LaSOT:  64%|████████████████████████▎             | 179/280 [00:02<00:01, 77.80it/s, flag-2]loading LaSOT:  64%|████████████████████████▎             | 179/280 [00:02<00:01, 77.80it/s, frog-3]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, frog-3]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, frog-4]loading LaSOT:  68%|████████████████████████▉            | 189/280 [00:02<00:01, 83.63it/s, frog-20]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, frog-9]loading LaSOT:  68%|█████████████████████▌          | 189/280 [00:02<00:01, 83.63it/s, gametarget-1]loading LaSOT:  68%|█████████████████████▌          | 189/280 [00:02<00:01, 83.63it/s, gametarget-2]loading LaSOT:  68%|█████████████████████▌          | 189/280 [00:02<00:01, 83.63it/s, gametarget-7]loading LaSOT:  68%|████████████████████▉          | 189/280 [00:02<00:01, 83.63it/s, gametarget-13]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, hand-2]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, hand-3]loading LaSOT:  68%|█████████████████████████▋            | 189/280 [00:02<00:01, 83.63it/s, hand-9]loading LaSOT:  68%|████████████████████████▉            | 189/280 [00:02<00:01, 83.63it/s, hand-16]loading LaSOT:  68%|████████████████████████▎           | 189/280 [00:02<00:01, 83.63it/s, helmet-5]loading LaSOT:  68%|███████████████████████▋           | 189/280 [00:02<00:01, 83.63it/s, helmet-11]loading LaSOT:  68%|███████████████████████▋           | 189/280 [00:02<00:01, 83.63it/s, helmet-19]loading LaSOT:  68%|███████████████████████▋           | 189/280 [00:02<00:01, 83.63it/s, helmet-13]loading LaSOT:  68%|████████████████████▎         | 189/280 [00:02<00:01, 83.63it/s, licenseplate-6]loading LaSOT:  73%|█████████████████████▏       | 205/280 [00:02<00:00, 101.94it/s, licenseplate-6]loading LaSOT:  73%|████████████████████▌       | 205/280 [00:02<00:00, 101.94it/s, licenseplate-12]loading LaSOT:  73%|████████████████████▌       | 205/280 [00:02<00:00, 101.94it/s, licenseplate-13]loading LaSOT:  73%|████████████████████▌       | 205/280 [00:02<00:00, 101.94it/s, licenseplate-15]loading LaSOT:  73%|█████████████████████▉        | 205/280 [00:02<00:00, 101.94it/s, electricfan-1]loading LaSOT:  73%|█████████████████████▏       | 205/280 [00:02<00:00, 101.94it/s, electricfan-10]loading LaSOT:  73%|█████████████████████▏       | 205/280 [00:02<00:00, 101.94it/s, electricfan-18]loading LaSOT:  73%|█████████████████████▏       | 205/280 [00:02<00:00, 101.94it/s, electricfan-20]loading LaSOT:  73%|███████████████████████▍        | 205/280 [00:02<00:00, 101.94it/s, chameleon-3]loading LaSOT:  73%|███████████████████████▍        | 205/280 [00:02<00:00, 101.94it/s, chameleon-6]loading LaSOT:  73%|██████████████████████▋        | 205/280 [00:02<00:00, 101.94it/s, chameleon-11]loading LaSOT:  73%|██████████████████████▋        | 205/280 [00:02<00:00, 101.94it/s, chameleon-20]loading LaSOT:  77%|████████████████████████▋       | 216/280 [00:02<00:00, 94.81it/s, chameleon-20]loading LaSOT:  77%|█████████████████████████▍       | 216/280 [00:02<00:00, 94.81it/s, crocodile-3]loading LaSOT:  77%|█████████████████████████▍       | 216/280 [00:02<00:00, 94.81it/s, crocodile-4]loading LaSOT:  77%|████████████████████████▋       | 216/280 [00:02<00:00, 94.81it/s, crocodile-10]loading LaSOT:  77%|████████████████████████▋       | 216/280 [00:02<00:00, 94.81it/s, crocodile-14]loading LaSOT:  77%|████████████████████████████▌        | 216/280 [00:02<00:00, 94.81it/s, gecko-1]loading LaSOT:  77%|████████████████████████████▌        | 216/280 [00:02<00:00, 94.81it/s, gecko-5]loading LaSOT:  77%|███████████████████████████▊        | 216/280 [00:02<00:00, 94.81it/s, gecko-16]loading LaSOT:  77%|███████████████████████████▊        | 216/280 [00:02<00:00, 94.81it/s, gecko-19]loading LaSOT:  77%|██████████████████████████████         | 216/280 [00:02<00:00, 94.81it/s, fox-2]loading LaSOT:  77%|██████████████████████████████         | 216/280 [00:02<00:00, 94.81it/s, fox-3]loading LaSOT:  81%|███████████████████████████████▍       | 226/280 [00:02<00:00, 94.43it/s, fox-3]loading LaSOT:  81%|███████████████████████████████▍       | 226/280 [00:02<00:00, 94.43it/s, fox-5]loading LaSOT:  81%|██████████████████████████████▋       | 226/280 [00:02<00:00, 94.43it/s, fox-20]loading LaSOT:  81%|████████████████████████████▎      | 226/280 [00:02<00:00, 94.43it/s, giraffe-2]loading LaSOT:  81%|███████████████████████████▍      | 226/280 [00:02<00:00, 94.43it/s, giraffe-10]loading LaSOT:  81%|███████████████████████████▍      | 226/280 [00:02<00:00, 94.43it/s, giraffe-13]loading LaSOT:  81%|███████████████████████████▍      | 226/280 [00:02<00:00, 94.43it/s, giraffe-15]loading LaSOT:  81%|████████████████████████████▎      | 226/280 [00:02<00:00, 94.43it/s, gorilla-4]loading LaSOT:  81%|████████████████████████████▎      | 226/280 [00:02<00:00, 94.43it/s, gorilla-6]loading LaSOT:  81%|████████████████████████████▎      | 226/280 [00:02<00:00, 94.43it/s, gorilla-9]loading LaSOT:  81%|███████████████████████████▍      | 226/280 [00:02<00:00, 94.43it/s, gorilla-13]loading LaSOT:  81%|█████████████████████████████▊       | 226/280 [00:02<00:00, 94.43it/s, hippo-1]loading LaSOT:  85%|███████████████████████████████▎     | 237/280 [00:02<00:00, 95.81it/s, hippo-1]loading LaSOT:  85%|███████████████████████████████▎     | 237/280 [00:02<00:00, 95.81it/s, hippo-7]loading LaSOT:  85%|███████████████████████████████▎     | 237/280 [00:02<00:00, 95.81it/s, hippo-9]loading LaSOT:  85%|██████████████████████████████▍     | 237/280 [00:02<00:00, 95.81it/s, hippo-20]loading LaSOT:  85%|███████████████████████████████▎     | 237/280 [00:02<00:00, 95.81it/s, horse-1]loading LaSOT:  85%|███████████████████████████████▎     | 237/280 [00:02<00:00, 95.81it/s, horse-4]loading LaSOT:  85%|██████████████████████████████▍     | 237/280 [00:02<00:00, 95.81it/s, horse-12]loading LaSOT:  85%|██████████████████████████████▍     | 237/280 [00:02<00:00, 95.81it/s, horse-15]loading LaSOT:  85%|████████████████████████████▊     | 237/280 [00:02<00:00, 95.81it/s, kangaroo-2]loading LaSOT:  85%|████████████████████████████▊     | 237/280 [00:02<00:00, 95.81it/s, kangaroo-5]loading LaSOT:  85%|███████████████████████████▉     | 237/280 [00:02<00:00, 95.81it/s, kangaroo-11]loading LaSOT:  85%|███████████████████████████▉     | 237/280 [00:02<00:00, 95.81it/s, kangaroo-14]loading LaSOT:  89%|█████████████████████████████▏   | 248/280 [00:02<00:00, 98.14it/s, kangaroo-14]loading LaSOT:  89%|███████████████████████████████    | 248/280 [00:02<00:00, 98.14it/s, leopard-1]loading LaSOT:  89%|███████████████████████████████    | 248/280 [00:02<00:00, 98.14it/s, leopard-7]loading LaSOT:  89%|██████████████████████████████    | 248/280 [00:02<00:00, 98.14it/s, leopard-16]loading LaSOT:  89%|██████████████████████████████    | 248/280 [00:02<00:00, 98.14it/s, leopard-20]loading LaSOT:  89%|█████████████████████████████████▋    | 248/280 [00:02<00:00, 98.14it/s, lion-1]loading LaSOT:  89%|█████████████████████████████████▋    | 248/280 [00:02<00:00, 98.14it/s, lion-5]loading LaSOT:  89%|████████████████████████████████▊    | 248/280 [00:02<00:00, 98.14it/s, lion-12]loading LaSOT:  89%|████████████████████████████████▊    | 248/280 [00:03<00:00, 98.14it/s, lion-20]loading LaSOT:  89%|███████████████████████████████▉    | 248/280 [00:03<00:00, 98.14it/s, lizard-1]loading LaSOT:  89%|███████████████████████████████▉    | 248/280 [00:03<00:00, 98.14it/s, lizard-3]loading LaSOT:  92%|█████████████████████████████████▏  | 258/280 [00:03<00:00, 89.08it/s, lizard-3]loading LaSOT:  92%|█████████████████████████████████▏  | 258/280 [00:03<00:00, 89.08it/s, lizard-6]loading LaSOT:  92%|████████████████████████████████▎  | 258/280 [00:03<00:00, 89.08it/s, lizard-13]loading LaSOT:  92%|█████████████████████████████▍  | 258/280 [00:03<00:00, 89.08it/s, microphone-2]loading LaSOT:  92%|█████████████████████████████▍  | 258/280 [00:03<00:00, 89.08it/s, microphone-6]loading LaSOT:  92%|████████████████████████████▌  | 258/280 [00:03<00:00, 89.08it/s, microphone-14]loading LaSOT:  92%|████████████████████████████▌  | 258/280 [00:03<00:00, 89.08it/s, microphone-16]loading LaSOT:  92%|█████████████████████████████████▏  | 258/280 [00:03<00:00, 89.08it/s, monkey-3]loading LaSOT:  92%|█████████████████████████████████▏  | 258/280 [00:03<00:00, 89.08it/s, monkey-4]loading LaSOT:  92%|█████████████████████████████████▏  | 258/280 [00:03<00:00, 89.08it/s, monkey-9]loading LaSOT:  92%|████████████████████████████████▎  | 258/280 [00:03<00:00, 89.08it/s, monkey-17]loading LaSOT:  96%|█████████████████████████████████▌ | 268/280 [00:03<00:00, 89.71it/s, monkey-17]loading LaSOT:  96%|███████████████████████████████████▍ | 268/280 [00:03<00:00, 89.71it/s, shark-2]loading LaSOT:  96%|███████████████████████████████████▍ | 268/280 [00:03<00:00, 89.71it/s, shark-3]loading LaSOT:  96%|███████████████████████████████████▍ | 268/280 [00:03<00:00, 89.71it/s, shark-5]loading LaSOT:  96%|███████████████████████████████████▍ | 268/280 [00:03<00:00, 89.71it/s, shark-6]loading LaSOT:  96%|████████████████████████████████▌ | 268/280 [00:03<00:00, 89.71it/s, squirrel-8]loading LaSOT:  96%|███████████████████████████████▌ | 268/280 [00:03<00:00, 89.71it/s, squirrel-11]loading LaSOT:  96%|███████████████████████████████▌ | 268/280 [00:03<00:00, 89.71it/s, squirrel-13]loading LaSOT:  96%|███████████████████████████████▌ | 268/280 [00:03<00:00, 89.71it/s, squirrel-19]loading LaSOT:  96%|██████████████████████████████▋ | 268/280 [00:03<00:00, 89.71it/s, volleyball-1]loading LaSOT:  96%|█████████████████████████████▋ | 268/280 [00:03<00:00, 89.71it/s, volleyball-13]loading LaSOT:  99%|██████████████████████████████▊| 278/280 [00:03<00:00, 88.45it/s, volleyball-13]loading LaSOT:  99%|██████████████████████████████▊| 278/280 [00:03<00:00, 88.45it/s, volleyball-18]loading LaSOT:  99%|██████████████████████████████▊| 278/280 [00:03<00:00, 88.45it/s, volleyball-19]loading LaSOT: 100%|███████████████████████████████| 280/280 [00:03<00:00, 84.63it/s, volleyball-19]
+['/media/hd2/mohana/pytracking/pytracking/networks/resnet18_vggmconv1/resnet18_vggmconv1.pth']
+../pytracking/libs/dcf.py:134: UserWarning: The function torch.rfft is deprecated and will be removed in a future PyTorch release. Use the new torch.fft module functions, instead, by importing torch.fft and calling torch.fft.fft or torch.fft.rfft. (Triggered internally at  /pytorch/aten/src/ATen/native/SpectralOps.cpp:590.)
+  reg_window_dft = torch.rfft(reg_window, 2) / sz.prod()
+../pytracking/libs/dcf.py:139: UserWarning: The function torch.irfft is deprecated and will be removed in a future PyTorch release. Use the new torch.fft module functions, instead, by importing torch.fft and calling torch.fft.ifft or torch.fft.irfft. (Triggered internally at  /pytorch/aten/src/ATen/native/SpectralOps.cpp:602.)
+  reg_window_sparse = torch.irfft(reg_window_dft, 2, signal_sizes=sz.long().tolist())
+../pytracking/libs/dcf.py:144: UserWarning: This overload of nonzero is deprecated:
+	nonzero()
+Consider using one of the following signatures instead:
+	nonzero(*, bool as_tuple) (Triggered internally at  /pytorch/torch/csrc/utils/python_arg_parser.cpp:882.)
+  max_inds,_ = reg_window_dft.nonzero().max(dim=0)
+/media/hd2/mohana/anaconda3/envs/pytracking/lib/python3.7/site-packages/torch/nn/functional.py:3063: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+(  1) Video: airplane-1   Time: 138.8s Speed: 20.1fps mIOU:0.48
+(  2) Video: airplane-13  Time: 222.7s Speed: 13.3fps mIOU:0.29
+(  3) Video: airplane-15  Time: 280.7s Speed: 16.0fps mIOU:0.19
+(  4) Video: airplane-9   Time: 561.6s Speed: 14.2fps mIOU:0.33
+(  5) Video: basketball-1 Time:  54.4s Speed: 20.0fps mIOU:0.06
+(  6) Video: basketball-11 Time: 116.8s Speed: 15.8fps mIOU:0.09
+(  7) Video: basketball-6 Time: 135.8s Speed: 13.2fps mIOU:0.15
+(  8) Video: basketball-7 Time: 134.5s Speed: 15.6fps mIOU:0.59
+(  9) Video: bear-17      Time: 154.6s Speed: 15.6fps mIOU:0.60
+( 10) Video: bear-2       Time: 429.5s Speed: 15.8fps mIOU:0.68
+( 11) Video: bear-4       Time: 128.4s Speed: 15.4fps mIOU:0.14
+( 12) Video: bear-6       Time: 113.6s Speed: 14.7fps mIOU:0.64
+( 13) Video: bicycle-18   Time: 101.1s Speed: 13.4fps mIOU:0.27
+( 14) Video: bicycle-2    Time: 136.1s Speed: 16.0fps mIOU:0.23
+( 15) Video: bicycle-7    Time: 158.7s Speed: 15.5fps mIOU:0.64
+( 16) Video: bicycle-9    Time: 190.8s Speed: 15.7fps mIOU:0.05
+( 17) Video: bird-15      Time:  83.2s Speed: 18.9fps mIOU:0.58
+( 18) Video: bird-17      Time: 314.1s Speed: 15.9fps mIOU:0.37
+( 19) Video: bird-2       Time: 205.4s Speed: 20.0fps mIOU:0.31
+( 20) Video: bird-3       Time: 160.0s Speed: 14.4fps mIOU:0.50
+( 21) Video: boat-12      Time: 100.7s Speed: 18.5fps mIOU:0.60
+( 22) Video: boat-17      Time: 124.7s Speed: 14.1fps mIOU:0.62
+( 23) Video: boat-3       Time: 359.2s Speed: 15.0fps mIOU:0.67
+( 24) Video: boat-4       Time: 153.4s Speed: 14.7fps mIOU:0.66
+( 25) Video: book-10      Time: 102.3s Speed: 15.8fps mIOU:0.58
+( 26) Video: book-11      Time: 145.7s Speed: 14.2fps mIOU:0.64
+( 27) Video: book-19      Time: 182.4s Speed: 15.8fps mIOU:0.80
+( 28) Video: book-3       Time: 112.3s Speed: 16.0fps mIOU:0.80
+( 29) Video: bottle-1     Time: 191.8s Speed: 16.1fps mIOU:0.14
+( 30) Video: bottle-12    Time: 177.7s Speed: 13.5fps mIOU:0.14
+( 31) Video: bottle-14    Time: 443.1s Speed: 16.2fps mIOU:0.74
+( 32) Video: bottle-18    Time: 122.7s Speed: 14.7fps mIOU:0.23
+( 33) Video: bus-17       Time: 122.1s Speed: 16.1fps mIOU:0.61
+( 34) Video: bus-19       Time: 124.7s Speed: 15.5fps mIOU:0.09
+( 35) Video: bus-2        Time:  72.0s Speed: 15.3fps mIOU:0.40
+( 36) Video: bus-5        Time: 108.6s Speed: 15.5fps mIOU:0.90
+( 37) Video: car-17       Time: 135.8s Speed: 16.6fps mIOU:0.49
+( 38) Video: car-2        Time: 143.3s Speed: 14.3fps mIOU:0.87
+( 39) Video: car-6        Time: 188.8s Speed: 14.8fps mIOU:0.82
+( 40) Video: car-9        Time: 261.3s Speed: 13.2fps mIOU:0.76
+( 41) Video: cat-1        Time: 157.2s Speed: 13.0fps mIOU:0.57
+( 42) Video: cat-18       Time: 100.7s Speed: 15.8fps mIOU:0.29
+( 43) Video: cat-20       Time:  80.4s Speed: 15.7fps mIOU:0.53
+( 44) Video: cat-3        Time: 230.9s Speed: 15.5fps mIOU:0.03
+( 45) Video: cattle-12    Time:  73.7s Speed: 21.1fps mIOU:0.56
+( 46) Video: cattle-13    Time: 173.4s Speed: 13.4fps mIOU:0.53
+( 47) Video: cattle-2     Time: 155.7s Speed: 15.8fps mIOU:0.16
+( 48) Video: cattle-7     Time: 112.0s Speed: 15.9fps mIOU:0.66
+( 49) Video: chameleon-11 Time: 178.7s Speed: 16.3fps mIOU:0.69
+( 50) Video: chameleon-20 Time: 111.4s Speed: 14.8fps mIOU:0.03
+( 51) Video: chameleon-3  Time:  68.3s Speed: 15.8fps mIOU:0.07
+( 52) Video: chameleon-6  Time: 117.8s Speed: 15.3fps mIOU:0.54
+( 53) Video: coin-18      Time:  73.7s Speed: 14.9fps mIOU:0.79
+( 54) Video: coin-3       Time:  73.3s Speed: 13.9fps mIOU:0.55
+( 55) Video: coin-6       Time: 200.3s Speed: 15.6fps mIOU:0.61
+( 56) Video: coin-7       Time: 111.0s Speed: 15.1fps mIOU:0.87
+( 57) Video: crab-12      Time: 116.6s Speed: 14.7fps mIOU:0.32
+( 58) Video: crab-18      Time: 113.3s Speed: 16.2fps mIOU:0.21
+( 59) Video: crab-3       Time:  99.1s Speed: 15.1fps mIOU:0.67
+( 60) Video: crab-6       Time: 124.5s Speed: 15.7fps mIOU:0.58
+( 61) Video: crocodile-10 Time:  87.1s Speed: 18.7fps mIOU:0.57
+( 62) Video: crocodile-14 Time: 100.8s Speed: 14.9fps mIOU:0.44
+( 63) Video: crocodile-3  Time: 281.3s Speed: 16.0fps mIOU:0.35
+( 64) Video: crocodile-4  Time:  80.2s Speed: 15.9fps mIOU:0.48
+( 65) Video: cup-1        Time: 101.7s Speed: 14.1fps mIOU:0.43
+( 66) Video: cup-17       Time: 124.9s Speed: 15.6fps mIOU:0.89
+( 67) Video: cup-4        Time: 143.1s Speed: 15.3fps mIOU:0.80
+( 68) Video: cup-7        Time:  85.7s Speed: 16.0fps mIOU:0.94
+( 69) Video: deer-10      Time:  92.1s Speed: 15.3fps mIOU:0.16
+( 70) Video: deer-14      Time: 139.7s Speed: 15.9fps mIOU:0.60
+( 71) Video: deer-4       Time: 296.1s Speed: 15.2fps mIOU:0.08
+( 72) Video: deer-8       Time: 142.0s Speed: 20.5fps mIOU:0.41
+( 73) Video: dog-1        Time:  87.5s Speed: 13.3fps mIOU:0.19
+( 74) Video: dog-15       Time: 310.7s Speed: 16.1fps mIOU:0.57
+( 75) Video: dog-19       Time: 111.9s Speed: 13.5fps mIOU:0.05
+( 76) Video: dog-7        Time: 134.3s Speed: 14.3fps mIOU:0.62
+( 77) Video: drone-13     Time: 247.9s Speed: 15.0fps mIOU:0.06
+( 78) Video: drone-15     Time:  95.9s Speed: 14.2fps mIOU:0.07
+( 79) Video: drone-2      Time: 223.6s Speed: 14.0fps mIOU:0.46
+( 80) Video: drone-7      Time: 150.2s Speed: 18.7fps mIOU:0.06
+( 81) Video: electricfan-1 Time: 104.0s Speed: 15.8fps mIOU:0.61
+( 82) Video: electricfan-10 Time: 101.9s Speed: 15.7fps mIOU:0.79
+( 83) Video: electricfan-18 Time: 123.9s Speed: 15.0fps mIOU:0.15
+( 84) Video: electricfan-20 Time: 151.5s Speed: 15.2fps mIOU:0.20
+( 85) Video: elephant-1   Time: 125.3s Speed: 15.1fps mIOU:0.50
+( 86) Video: elephant-12  Time:  74.0s Speed: 14.2fps mIOU:0.28
+( 87) Video: elephant-16  Time: 192.8s Speed: 13.8fps mIOU:0.11
+( 88) Video: elephant-18  Time:  99.1s Speed: 15.1fps mIOU:0.50
+( 89) Video: flag-2       Time: 213.4s Speed: 15.0fps mIOU:0.60
+( 90) Video: flag-3       Time: 127.2s Speed: 15.0fps mIOU:0.60
+( 91) Video: flag-5       Time: 155.0s Speed: 14.4fps mIOU:0.41
+( 92) Video: flag-9       Time: 269.1s Speed: 15.9fps mIOU:0.41
+( 93) Video: fox-2        Time: 177.8s Speed: 13.3fps mIOU:0.38
+( 94) Video: fox-20       Time: 280.1s Speed: 14.9fps mIOU:0.08
+( 95) Video: fox-3        Time: 160.9s Speed: 15.5fps mIOU:0.26
+( 96) Video: fox-5        Time: 117.4s Speed: 14.7fps mIOU:0.10
+( 97) Video: frog-20      Time: 142.7s Speed: 15.8fps mIOU:0.12
+( 98) Video: frog-3       Time: 136.4s Speed: 15.6fps mIOU:0.52
+( 99) Video: frog-4       Time:  78.1s Speed: 15.9fps mIOU:0.42
+(100) Video: frog-9       Time:  77.1s Speed: 15.7fps mIOU:0.71
+(101) Video: gametarget-1 Time: 154.5s Speed: 14.6fps mIOU:0.32
+(102) Video: gametarget-13 Time: 133.1s Speed: 22.0fps mIOU:0.13
+(103) Video: gametarget-2 Time: 114.2s Speed: 16.1fps mIOU:0.78
+(104) Video: gametarget-7 Time: 106.8s Speed: 15.1fps mIOU:0.24
+(105) Video: gecko-1      Time: 155.9s Speed: 15.4fps mIOU:0.06
+(106) Video: gecko-16     Time:  96.3s Speed: 15.3fps mIOU:0.48
+(107) Video: gecko-19     Time: 137.4s Speed: 15.9fps mIOU:0.55
+(108) Video: gecko-5      Time:  61.3s Speed: 20.4fps mIOU:0.34
+(109) Video: giraffe-10   Time:  97.9s Speed: 16.0fps mIOU:0.34
+(110) Video: giraffe-13   Time: 131.9s Speed: 15.8fps mIOU:0.19
+(111) Video: giraffe-15   Time:  92.7s Speed: 16.0fps mIOU:0.31
+(112) Video: giraffe-2    Time: 133.1s Speed: 15.8fps mIOU:0.26
+(113) Video: goldfish-10  Time: 342.4s Speed: 16.4fps mIOU:0.08
+(114) Video: goldfish-3   Time: 146.4s Speed: 16.2fps mIOU:0.07
+(115) Video: goldfish-7   Time: 582.5s Speed: 13.7fps mIOU:0.00
+(116) Video: goldfish-8   Time: 138.1s Speed: 16.3fps mIOU:0.09
+(117) Video: gorilla-13   Time: 100.7s Speed: 15.9fps mIOU:0.39
+(118) Video: gorilla-4    Time: 127.7s Speed: 16.1fps mIOU:0.06
+(119) Video: gorilla-6    Time: 179.5s Speed: 16.0fps mIOU:0.38
+(120) Video: gorilla-9    Time: 115.0s Speed: 16.0fps mIOU:0.22
+(121) Video: guitar-10    Time: 135.7s Speed: 13.9fps mIOU:0.02
+(122) Video: guitar-16    Time:  65.3s Speed: 15.3fps mIOU:0.66
+(123) Video: guitar-3     Time: 165.8s Speed: 15.2fps mIOU:0.69
+(124) Video: guitar-8     Time: 162.3s Speed: 13.5fps mIOU:0.12
+(125) Video: hand-16      Time: 313.1s Speed: 13.9fps mIOU:0.64
+(126) Video: hand-2       Time: 102.8s Speed: 16.0fps mIOU:0.84
+(127) Video: hand-3       Time: 155.9s Speed: 20.6fps mIOU:0.15
+(128) Video: hand-9       Time:  84.7s Speed: 20.5fps mIOU:0.06
+(129) Video: hat-1        Time: 205.6s Speed: 16.9fps mIOU:0.19
+(130) Video: hat-18       Time: 191.4s Speed: 14.7fps mIOU:0.63
+(131) Video: hat-2        Time:  71.7s Speed: 20.4fps mIOU:0.53
+(132) Video: hat-5        Time: 483.0s Speed: 16.6fps mIOU:0.22
+(133) Video: helmet-11    Time: 148.0s Speed: 20.2fps mIOU:0.47
+(134) Video: helmet-13    Time: 217.8s Speed: 14.3fps mIOU:0.11
+(135) Video: helmet-19    Time:  69.9s Speed: 20.1fps mIOU:0.69
+(136) Video: helmet-5     Time:  75.8s Speed: 20.3fps mIOU:0.48
+(137) Video: hippo-1      Time: 143.2s Speed: 16.3fps mIOU:0.36
+(138) Video: hippo-20     Time: 105.1s Speed: 15.8fps mIOU:0.73
+(139) Video: hippo-7      Time: 154.6s Speed: 16.0fps mIOU:0.67
+(140) Video: hippo-9      Time: 133.2s Speed: 14.2fps mIOU:0.61
+(141) Video: horse-1      Time:  85.3s Speed: 15.4fps mIOU:0.41
+(142) Video: horse-12     Time: 139.7s Speed: 15.7fps mIOU:0.46
+(143) Video: horse-15     Time: 164.5s Speed: 14.4fps mIOU:0.04
+(144) Video: horse-4      Time:  92.8s Speed: 15.6fps mIOU:0.37
+(145) Video: kangaroo-11  Time: 161.4s Speed: 15.8fps mIOU:0.25
+(146) Video: kangaroo-14  Time:  90.5s Speed: 15.0fps mIOU:0.45
+(147) Video: kangaroo-2   Time: 144.0s Speed: 16.3fps mIOU:0.19
+(148) Video: kangaroo-5   Time: 151.7s Speed: 20.6fps mIOU:0.07
+(149) Video: kite-10      Time: 157.8s Speed: 21.0fps mIOU:0.06
+(150) Video: kite-15      Time: 102.1s Speed: 20.6fps mIOU:0.01
+(151) Video: kite-4       Time: 157.9s Speed: 20.4fps mIOU:0.46
+(152) Video: kite-6       Time: 273.4s Speed: 13.8fps mIOU:0.07
+(153) Video: leopard-1    Time:  73.0s Speed: 15.3fps mIOU:0.40
+(154) Video: leopard-16   Time: 144.5s Speed: 15.4fps mIOU:0.50
+(155) Video: leopard-20   Time: 170.4s Speed: 16.2fps mIOU:0.22
+(156) Video: leopard-7    Time: 105.7s Speed: 13.5fps mIOU:0.34
+(157) Video: licenseplate-12 Time: 162.6s Speed: 16.5fps mIOU:0.30
+(158) Video: licenseplate-13 Time: 185.2s Speed: 16.6fps mIOU:0.78
+(159) Video: licenseplate-15 Time:  97.2s Speed: 15.2fps mIOU:0.31
+(160) Video: licenseplate-6 Time:  92.3s Speed: 15.9fps mIOU:0.85
+(161) Video: lion-1       Time: 110.1s Speed: 13.4fps mIOU:0.57
+(162) Video: lion-12      Time: 213.7s Speed: 16.3fps mIOU:0.15
+(163) Video: lion-20      Time:  99.0s Speed: 15.9fps mIOU:0.33
+(164) Video: lion-5       Time: 151.4s Speed: 16.2fps mIOU:0.06
+(165) Video: lizard-1     Time: 166.5s Speed: 16.1fps mIOU:0.43
+(166) Video: lizard-13    Time: 175.3s Speed: 16.0fps mIOU:0.27
+(167) Video: lizard-3     Time: 273.7s Speed: 16.3fps mIOU:0.15
+(168) Video: lizard-6     Time: 126.9s Speed: 16.0fps mIOU:0.32
+(169) Video: microphone-14 Time: 134.0s Speed: 16.7fps mIOU:0.48
+(170) Video: microphone-16 Time: 158.0s Speed: 13.8fps mIOU:0.46
+(171) Video: microphone-2 Time: 239.9s Speed: 16.7fps mIOU:0.32
+(172) Video: microphone-6 Time:  86.3s Speed: 20.5fps mIOU:0.39
+(173) Video: monkey-17    Time: 142.4s Speed: 15.9fps mIOU:0.41
+(174) Video: monkey-3     Time:  81.5s Speed: 15.5fps mIOU:0.22
+(175) Video: monkey-4     Time:  92.0s Speed: 15.6fps mIOU:0.20
+(176) Video: monkey-9     Time: 201.9s Speed: 20.2fps mIOU:0.16
+(177) Video: motorcycle-1 Time: 142.8s Speed: 15.7fps mIOU:0.04
+(178) Video: motorcycle-18 Time: 188.9s Speed: 13.5fps mIOU:0.01
+(179) Video: motorcycle-3 Time: 156.1s Speed: 15.9fps mIOU:0.39
+(180) Video: motorcycle-9 Time: 115.0s Speed: 14.4fps mIOU:0.54
+(181) Video: mouse-1      Time:  98.2s Speed: 15.7fps mIOU:0.52
+(182) Video: mouse-17     Time:  99.9s Speed: 16.1fps mIOU:0.31
+(183) Video: mouse-8      Time:  64.0s Speed: 19.9fps mIOU:0.04
+(184) Video: mouse-9      Time: 143.7s Speed: 19.6fps mIOU:0.61
+(185) Video: person-1     Time: 343.5s Speed: 16.2fps mIOU:0.55
+(186) Video: person-10    Time: 248.2s Speed: 15.7fps mIOU:0.58
+(187) Video: person-12    Time: 124.7s Speed: 16.0fps mIOU:0.12
+(188) Video: person-5     Time: 190.2s Speed: 15.6fps mIOU:0.38
+(189) Video: pig-10       Time: 169.4s Speed: 15.9fps mIOU:0.13
+(190) Video: pig-13       Time: 115.6s Speed: 15.9fps mIOU:0.19
+(191) Video: pig-18       Time: 156.0s Speed: 15.4fps mIOU:0.37
+(192) Video: pig-2        Time: 172.2s Speed: 15.5fps mIOU:0.12
+(193) Video: pool-12      Time: 134.5s Speed: 13.4fps mIOU:0.07
+(194) Video: pool-15      Time:  74.2s Speed: 18.0fps mIOU:0.48
+(195) Video: pool-3       Time: 136.5s Speed: 16.5fps mIOU:0.47
+(196) Video: pool-7       Time:  99.5s Speed: 16.4fps mIOU:0.01
+(197) Video: rabbit-10    Time: 140.1s Speed: 15.0fps mIOU:0.07
+(198) Video: rabbit-13    Time: 134.2s Speed: 15.7fps mIOU:0.51
+(199) Video: rabbit-17    Time:  99.6s Speed: 14.8fps mIOU:0.16
+(200) Video: rabbit-19    Time: 108.1s Speed: 20.5fps mIOU:0.52
+(201) Video: racing-10    Time: 109.1s Speed: 13.8fps mIOU:0.54
+(202) Video: racing-15    Time:  69.8s Speed: 15.3fps mIOU:0.09
+(203) Video: racing-16    Time: 158.5s Speed: 13.8fps mIOU:0.51
+(204) Video: racing-20    Time: 176.6s Speed: 16.6fps mIOU:0.03
+(205) Video: robot-1      Time: 278.8s Speed: 20.1fps mIOU:0.37
+(206) Video: robot-19     Time: 353.4s Speed: 16.4fps mIOU:0.19
+(207) Video: robot-5      Time: 175.1s Speed: 13.3fps mIOU:0.64
+(208) Video: robot-8      Time: 156.2s Speed: 15.2fps mIOU:0.75
+(209) Video: rubicCube-1  Time: 117.1s Speed: 15.4fps mIOU:0.27
+(210) Video: rubicCube-14 Time: 114.3s Speed: 16.0fps mIOU:0.54
+(211) Video: rubicCube-19 Time: 134.3s Speed: 15.6fps mIOU:0.44
+(212) Video: rubicCube-6  Time: 276.7s Speed: 15.5fps mIOU:0.78
+(213) Video: sepia-13     Time: 180.9s Speed: 15.2fps mIOU:0.16
+(214) Video: sepia-16     Time: 100.1s Speed: 15.4fps mIOU:0.46
+(215) Video: sepia-6      Time:  73.5s Speed: 15.0fps mIOU:0.42
+(216) Video: sepia-8      Time: 233.6s Speed: 15.8fps mIOU:0.21
+(217) Video: shark-2      Time: 266.5s Speed: 13.0fps mIOU:0.05
+(218) Video: shark-3      Time:  70.6s Speed: 14.1fps mIOU:0.51
+(219) Video: shark-5      Time: 111.6s Speed: 13.5fps mIOU:0.21
+(220) Video: shark-6      Time:  88.2s Speed: 14.0fps mIOU:0.37
+(221) Video: sheep-3      Time: 131.4s Speed: 16.0fps mIOU:0.15
+(222) Video: sheep-5      Time:  75.5s Speed: 13.2fps mIOU:0.55
+(223) Video: sheep-7      Time:  87.3s Speed: 14.4fps mIOU:0.85
+(224) Video: sheep-9      Time: 112.3s Speed: 16.4fps mIOU:0.47
+(225) Video: skateboard-16 Time: 236.1s Speed: 13.6fps mIOU:0.49
+(226) Video: skateboard-19 Time: 167.8s Speed: 13.5fps mIOU:0.52
+(227) Video: skateboard-3 Time:  96.0s Speed: 17.0fps mIOU:0.19
+(228) Video: skateboard-8 Time: 288.5s Speed: 14.2fps mIOU:0.12
+(229) Video: spider-14    Time: 181.6s Speed: 15.2fps mIOU:0.07
+(230) Video: spider-16    Time: 116.2s Speed: 16.4fps mIOU:0.71
+(231) Video: spider-18    Time: 147.6s Speed: 14.4fps mIOU:0.56
+(232) Video: spider-20    Time: 759.6s Speed: 13.2fps mIOU:0.63
+(233) Video: squirrel-11  Time:  94.5s Speed: 15.3fps mIOU:0.16
+(234) Video: squirrel-13  Time: 130.7s Speed: 15.3fps mIOU:0.18
+(235) Video: squirrel-19  Time:  75.7s Speed: 15.9fps mIOU:0.14
+(236) Video: squirrel-8   Time:  65.8s Speed: 15.8fps mIOU:0.21
+(237) Video: surfboard-12 Time: 197.8s Speed: 16.5fps mIOU:0.38
+(238) Video: surfboard-4  Time: 124.6s Speed: 14.3fps mIOU:0.40
+(239) Video: surfboard-5  Time: 250.7s Speed: 17.5fps mIOU:0.42
+(240) Video: surfboard-8  Time: 149.3s Speed: 14.8fps mIOU:0.12
+(241) Video: swing-10     Time: 148.2s Speed: 14.8fps mIOU:0.04
+(242) Video: swing-14     Time: 185.0s Speed: 13.9fps mIOU:0.02
+(243) Video: swing-17     Time: 163.7s Speed: 16.5fps mIOU:0.43
+(244) Video: swing-20     Time:  86.3s Speed: 14.8fps mIOU:0.61
+(245) Video: tank-14      Time: 212.2s Speed: 15.7fps mIOU:0.07
+(246) Video: tank-16      Time: 259.2s Speed: 14.0fps mIOU:0.67
+(247) Video: tank-6       Time: 110.5s Speed: 14.6fps mIOU:0.62
+(248) Video: tank-9       Time:  96.9s Speed: 13.5fps mIOU:0.12
+(249) Video: tiger-12     Time:  68.2s Speed: 15.2fps mIOU:0.47
+(250) Video: tiger-18     Time: 209.5s Speed: 14.8fps mIOU:0.62
+(251) Video: tiger-4      Time: 182.0s Speed: 15.8fps mIOU:0.18
+(252) Video: tiger-6      Time: 155.8s Speed: 14.7fps mIOU:0.33
+(253) Video: train-1      Time:  70.8s Speed: 16.2fps mIOU:0.01
+(254) Video: train-11     Time:  63.2s Speed: 17.1fps mIOU:0.61
+(255) Video: train-20     Time:  99.3s Speed: 14.0fps mIOU:0.03
+(256) Video: train-7      Time:  76.0s Speed: 18.7fps mIOU:0.24
+(257) Video: truck-16     Time: 451.0s Speed: 16.0fps mIOU:0.16
+(258) Video: truck-3      Time:  80.5s Speed: 15.8fps mIOU:0.42
+(259) Video: truck-6      Time: 326.0s Speed: 16.1fps mIOU:0.35
+(260) Video: truck-7      Time: 469.9s Speed: 13.9fps mIOU:0.62
+(261) Video: turtle-16    Time: 212.0s Speed: 15.6fps mIOU:0.45
+(262) Video: turtle-5     Time:  75.0s Speed: 14.6fps mIOU:0.68
+(263) Video: turtle-8     Time:  99.7s Speed: 15.0fps mIOU:0.24
+(264) Video: turtle-9     Time: 480.5s Speed: 14.8fps mIOU:0.24
+(265) Video: umbrella-17  Time:  72.1s Speed: 13.9fps mIOU:0.53
+(266) Video: umbrella-19  Time: 216.1s Speed: 13.3fps mIOU:0.48
+(267) Video: umbrella-2   Time: 299.1s Speed: 16.0fps mIOU:0.41
+(268) Video: umbrella-9   Time:  90.9s Speed: 17.7fps mIOU:0.04
+(269) Video: volleyball-1 Time:  63.5s Speed: 20.6fps mIOU:0.26
+(270) Video: volleyball-13 Time: 129.3s Speed: 15.8fps mIOU:0.01
+(271) Video: volleyball-18 Time: 161.0s Speed: 16.2fps mIOU:0.08
+(272) Video: volleyball-19 Time:  93.0s Speed: 15.8fps mIOU:0.01
+(273) Video: yoyo-15      Time:  76.7s Speed: 13.0fps mIOU:0.57
+(274) Video: yoyo-17      Time:  64.0s Speed: 16.1fps mIOU:0.03
+(275) Video: yoyo-19      Time: 236.5s Speed: 13.6fps mIOU:0.02
+(276) Video: yoyo-7       Time: 244.1s Speed: 15.6fps mIOU:0.00
+(277) Video: zebra-10     Time: 150.9s Speed: 13.3fps mIOU:0.18
+(278) Video: zebra-14     Time: 126.0s Speed: 13.3fps mIOU:0.56
+(279) Video: zebra-16     Time:  86.2s Speed: 14.9fps mIOU:0.23
+(280) Video: zebra-17     Time: 187.8s Speed: 15.8fps mIOU:0.11

@@ -1,7 +1,7 @@
 import visdom
 import visdom.server
 from pytracking.features.preprocessing import numpy_to_torch
-from pytracking.utils.plotting import show_image_with_boxes, overlay_mask, _pascal_color_map
+from pytracking.utils.plotting import show_image_with_boxes, overlay_mask
 import cv2
 import torch
 import copy
@@ -322,17 +322,11 @@ class VisTracking(VisBase):
 
         boxes = [resize_factor * b.clone() for b in self.raw_data[1]]
 
-        colors = np.asarray(_pascal_color_map(), dtype=np.uint8)
-
         for i, disp_rect in enumerate(boxes):
-            # Changed the color to match the _pascal_color_map used in overlay_mask
-            # color = ((255*((i%3)>0)), 255*((i+1)%2), (255*(i%5))//4)
-            color = colors[i+1].tolist()
-            disp_rect = disp_rect.view(4)
+            color = ((255*((i%3)>0)), 255*((i+1)%2), (255*(i%5))//4)
             cv2.rectangle(disp_image,
                           (int(disp_rect[0]), int(disp_rect[1])),
-                          (int(disp_rect[0] + disp_rect[2]), int(disp_rect[1] + disp_rect[3])), color, 1)
-
+                          (int(disp_rect[0] + disp_rect[2]), int(disp_rect[1] + disp_rect[3])), color, 2)
         for i, mask in enumerate(self.raw_data[2], 1):
             disp_image = overlay_mask(disp_image, mask * i)
         disp_image = numpy_to_torch(disp_image).squeeze(0)
